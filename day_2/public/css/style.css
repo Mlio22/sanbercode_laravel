@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-image: url("../img/pattern.jpg");
+    font-family: 'Times New Roman', serif;
+}
+
+header {
+    background-color: white;
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header>img {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 0;
+}
+
+header li {
+    color: #2430d9;
+    display: inline;
+    padding: 20px;
+    font-size: initial;
+    transition: .1s background-color ease-in;
+}
+
+header li:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* sections */
+
+section {
+    padding: 20px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+section>h1 {
+    text-align: center;
+    font-family: 'Slabo 27px';
+}
+
+section article {
+    border-bottom: 2px solid black;
+}
+
+
+/* footer */
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer>h5 {
+    padding: 20px;
+    margin: 0;
+}
