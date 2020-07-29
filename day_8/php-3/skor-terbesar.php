@@ -41,8 +41,7 @@ function skor_terbesar($arr){
         }
         $skor_per_kategori[$maxOrg["kelas"]] = $maxOrg;
     }
-
-    print_r($skor_per_kategori);
+    return $skor_per_kategori;
 }
 
 // TEST CASES
